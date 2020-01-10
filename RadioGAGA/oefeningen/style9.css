@@ -1,0 +1,51 @@
+#h1 {
+    width: 100%;
+    background-color: #FE0000;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#h2 {
+    width: 100%;
+    background-color: #FF9C00;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#h3 {
+    width: 100%;
+    background-color: #F5FF00;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#h4 {
+    width: 100%;
+    background-color: #3CF10E;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+
+}
+#h5 {
+    width: 100%;
+    background-color: #01FFE5;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#h6 {
+    width: 100%;
+    background-color: #0024FF;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#h7 {
+    width: 100%;
+    background-color: #C500FF;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+#h8 {
+    width: 100%;
+    background-color: #FF009C;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}

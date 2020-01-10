@@ -1,0 +1,64 @@
+#verzadigd {
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+}
+#verzadigdtekst {
+    font-weight: bold;
+    float: left;
+    margin-left: 15px;
+}
+#rood1 {
+    float: left;
+    background-color: rgba(255, 0, 0, 1.0);
+    width: 100%;
+}
+#rood2 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.9);
+    width: 100%;
+}
+#rood3 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.8);
+    width: 100%;
+}
+#rood4 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.7);
+    width: 100%;
+}
+#rood5 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.6);
+    width: 100%;
+}
+#rood6 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 100%;
+}#rood7 {
+     float: left;
+     background-color: rgba(255, 0, 0, 0.4);
+     width: 100%;
+ }
+#rood8 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 100%;
+}
+#rood9 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.2);
+    width: 100%;
+}
+#rood10 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.1);
+    width: 100%;
+}
+#rood11 {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.0);
+    width: 100%;
+}
