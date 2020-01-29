@@ -6,7 +6,7 @@
     margin: auto;
     margin-top: 3%;
     margin-bottom: 3%;
-    background-color: #0024FF;
+    background-color: lightgreen;
     text-align: center;
 }
 #Div2 {
@@ -15,9 +15,16 @@
     font-size: 15px;
     margin-left: 10%;
     margin-bottom: 5%;
-    background-color: #FF0000;
+    background-color: lightgreen;
     text-align: center;
     box-shadow: 4px 4px 10px;
+    background-image: url("images/google.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+    animation-name: revolutie;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 Div2 a:hover,
 Div2 a:focus {
@@ -28,15 +35,19 @@ Div2 a:focus {
     width: 80%;
     height: 150px;
     margin-left: 10%;
-    background-color: #C500FF;
+    background-color: rgba(0, 255, 0, 0.2);
     text-align: center;
     margin-top: 3%;
     box-shadow: 4px 4px 10px;
     font-size: 20px;
+    background-image: url("images/firefox-icon.png");
+    background-size: 150px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
 }
 
 #Div4 {
-    background-color: #FF9C00;
+    background-color: rgba(0, 255, 0, 0.2);
     height: 40%;
     width: 75%;
     margin-left: 12%;
@@ -45,7 +56,6 @@ Div2 a:focus {
     font-size: 25px;
 
 }
-
 
 nav ul {
     margin-left: 38%;
@@ -63,4 +73,8 @@ nav ul li a:hover,
 nav ul li a:focus {
     color: firebrick;
     letter-spacing: 5px;
+}
+@keyframes revolutie {
+    from   {transform: rotateX(0deg)}
+    to {transform: rotateX(306deg)}
 }

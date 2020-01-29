@@ -47,9 +47,89 @@ nav ul li a{
     font-size: 1.7rem;
     opacity: 0.5;
     filter: alpha(opacity=50);
+    flex: 1;
 }
 nav ul li a:hover,
 nav ul li a:focus {
     color: firebrick;
     letter-spacing: 5px;
+}
+#logo  {
+    margin-top: 15px;
+    padding-top: 10%;
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 3%;
+}
+#disc {
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.8;
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    background-image: -moz-radial-gradient(
+    45px 45px 45deg, circle cover, grey 0%, black 100%, black 95%);
+    background-image: -wekbit-radial-gradient(
+    45px 45px, circle cover, grey, black);
+    background-image: radial-gradient(
+    45px 45px 45deg, circle cover, grey 0%, black 100%, black 95%);
+    animation-name: revolutie;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes revolutie {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#center {
+    width: 105px;
+    height: 105px;
+    background: orange;
+    position: relative;
+    top: 37%;
+    left: 37%;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#pager a {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pager a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    font-size: 3.2rem;
+    background-image: linear-gradient(to bottom, hsl(0, 80%, 50%),
+    #bada55);
+}
+#vorige {
+    z-index: 1;
+    margin-left: 10px;
+    position: fixed;
+    top: 45%;
+    left: 4%;
+}
+#volgende {
+    z-index: 1;
+    margin-right: 10px;
+    position: absolute;
+    top: 45%;
+    right: 4%;
 }
