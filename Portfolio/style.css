@@ -1,0 +1,147 @@
+/* scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+/* standard type */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* navigation bar settings */
+nav {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li {
+    float: left;
+}
+a {
+    font-size: 18px;
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #db1447;
+}
+/* Markvanderburg section */
+#Mburg {
+    height: 1080px;
+    background-image: url("images/background.jpg");
+    display: inline-block;
+    width: 100%;
+}
+/* Aboutme section */
+#Ame {
+    height: 1080px;
+    background:#0C131F;
+    display: inline-block;
+    width: 100%;
+}
+/* Contact section */
+#Contact {
+    height: 1080px;
+    background: #0C131F;
+    display: inline-block;
+    width: 100%;
+}
+/* heading 1 settings */
+h1 {
+    margin-left: 100px;
+    color: #fff;
+    font-family: "Abyssinica SIL";
+}
+.overlay {
+    opacity: 85%;
+    margin-left: 300px;
+    margin-top: 120px;
+    border-radius: 10px;
+    background-color: black;
+    width: 1300px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    margin-top: 4px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #503A4E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* Add a background color and some padding around the form */
+.container {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.im {
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.image img {
+    margin-left: 1200px;
+    margin-top: 200px;
+    width: 400px;
+    border: solid 10px;
+}
+.Aboutme {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 60%;
+    font-size: 20px;
+}
+.Toolsh {
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.Tools {
+    margin-left: 50px;
+    margin-top: -180px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+}
+.contact {
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.logo img{width: 100px;}
+
+.codeimg img {
+    margin-left: 1300px;
+    margin-top: -200px;
+    width: 350px;
+    border: solid 6px white;
+}
+
+
