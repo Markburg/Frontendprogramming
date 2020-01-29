@@ -47,7 +47,7 @@ nav ul li a:focus {
 /* Aboutme section */
 #Ame {
     height: 1080px;
-    background:#0C131F;
+    background: #0C131F;
     display: inline-block;
     width: 100%;
 }
@@ -62,7 +62,7 @@ nav ul li a:focus {
 h1 {
     margin-left: 100px;
     color: #fff;
-    font-family: "Abyssinica SIL";
+    font-family: "Abyssinica SIL", serif;
 }
 .overlay {
     opacity: 85%;
@@ -94,11 +94,11 @@ input[type=submit] {
 }
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: firebrick;
 }
-/* Add a background color and some padding around the form */
+/* Add a background color and some padding around the contact form */
 .container {
-    margin-top: 50px;
+    margin-top: 10px;
     border-radius: 10px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -132,7 +132,7 @@ input[type=submit]:hover {
     width: 50px;
 }
 .contact {
-    margin-top: 150px;
+    margin-top: 75px;
     margin-left: -50px;
 }
 .logo img{width: 100px;}
@@ -142,6 +142,16 @@ input[type=submit]:hover {
     margin-top: -200px;
     width: 350px;
     border: solid 6px white;
+}
+container {
+    width: 1800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+div img {
+    margin-left: 150px;
+    width: 50%;
 }
 
 
