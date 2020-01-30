@@ -1,3 +1,9 @@
+/* page reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* scroll behavior */
 html {
     scroll-behavior: smooth;
@@ -6,7 +12,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 /* navigation bar settings */
 nav {
@@ -24,6 +29,7 @@ li {
     float: left;
 }
 a {
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     padding: 20px;
     width: 100px;
@@ -58,9 +64,12 @@ nav ul li a:focus {
     display: inline-block;
     width: 100%;
 }
+/* padding for h1,h2,h3,p */
+h1,h2,h3,p {
+    padding: 2em;
+}
 /* heading 1 settings */
 h1 {
-    margin-left: 100px;
     color: #fff;
     font-family: "Abyssinica SIL", serif;
 }
@@ -103,10 +112,6 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
-.im {
-    margin-top: 150px;
-    margin-left: -50px;
-}
 .image img {
     margin-left: 1200px;
     margin-top: 200px;
@@ -115,18 +120,10 @@ input[type=submit]:hover {
 }
 .Aboutme {
     color: white;
-    margin-top: 50px;
-    margin-left: 50px;
     width: 60%;
     font-size: 20px;
 }
-.Toolsh {
-    margin-top: 150px;
-    margin-left: -50px;
-}
 .Tools {
-    margin-left: 50px;
-    margin-top: -180px;
     color: white;
     font-size: 30px;
     width: 50px;
@@ -138,20 +135,21 @@ input[type=submit]:hover {
 .logo img{width: 100px;}
 
 .codeimg img {
-    margin-left: 1300px;
-    margin-top: -200px;
+    margin-right: 100px;
     width: 350px;
+    float: right;
     border: solid 6px white;
 }
-container {
-    width: 1800px;
-    height: 500px;
+h2 {
+    color: white;
+}
+.Social {
     display: flex;
     flex-direction: row;
 }
-div img {
-    margin-left: 150px;
-    width: 50%;
+.Social img {
+    width: 100%;
 }
+
 
 
