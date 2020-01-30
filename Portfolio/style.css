@@ -66,12 +66,12 @@ nav ul li a:focus {
 }
 /* padding for h1,h2,h3,p */
 h1,h2,h3,p {
-    padding: 2em;
+    padding: 1em;
 }
 /* heading 1 settings */
 h1 {
     color: #fff;
-    font-family: "Abyssinica SIL", serif;
+    font-family: 'Merriweather', serif;
 }
 .overlay {
     opacity: 85%;
@@ -120,7 +120,7 @@ input[type=submit]:hover {
 }
 .Aboutme {
     color: white;
-    width: 60%;
+    width: 70%;
     font-size: 20px;
 }
 .Tools {
@@ -129,19 +129,14 @@ input[type=submit]:hover {
     width: 50px;
 }
 .contact {
-    margin-top: 75px;
-    margin-left: -50px;
+    margin-top: 50px;
 }
 .logo img{width: 100px;}
 
 .codeimg img {
     margin-right: 100px;
-    width: 350px;
     float: right;
     border: solid 6px white;
-}
-h2 {
-    color: white;
 }
 .Social {
     display: flex;
@@ -149,6 +144,9 @@ h2 {
 }
 .Social img {
     width: 100%;
+}
+.im {
+    margin-top: 50px;
 }
 
 
