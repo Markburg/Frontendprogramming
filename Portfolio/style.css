@@ -73,6 +73,7 @@ h1,h2 {
     color: #fff;
     font-family: 'Merriweather', serif;
 }
+/* transparent bar settings */
 .overlay {
     opacity: 85%;
     margin-left: 300px;
@@ -92,8 +93,8 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical
 }
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
+/* Sumbit button for sending mail */
+.submit {
     background-color: #503A4E;
     color: white;
     padding: 12px 20px;
@@ -102,7 +103,7 @@ input[type=submit] {
     cursor: pointer;
 }
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+.submit:hover {
     background-color: firebrick;
 }
 /* Add a background color and some padding around the contact form */
@@ -111,12 +112,14 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+/* Self image border and position */
 .image img {
     margin-left: 1200px;
     margin-top: 200px;
     width: 400px;
     border: solid 10px;
 }
+/* Aboutme text color and  */
 .Aboutme {
     color: white;
     width: 70%;
