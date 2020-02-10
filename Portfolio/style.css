@@ -141,8 +141,10 @@ input[type=text], select, textarea {
     border: solid 6px white;
 }
 .Social {
+    margin-top: -80px;
     display: flex;
     flex-direction: row;
+    width: 40%;
 }
 .Social img {
     width: 80%;
@@ -152,12 +154,8 @@ input[type=text], select, textarea {
 }
 footer {
     margin-top: -300px;
-    background-color: #0C131F ;
-    color: #fff;
+    color: #ccc;
     font-family: 'Roboto Slab', serif;
     text-align: center;
     font-size: 13px;
 }
-
-
-
